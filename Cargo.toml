@@ -1,0 +1,14 @@
+[package]
+name = "qrusthy"
+version = "0.1.0"
+authors = ["Emaad Paracha <emaad@emaadparacha.com>"]
+edition = "2018"
+description = "Rust wrapper for the QHYCCD SDK for QHY Cameras"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["qhy", "qhyccd", "ccd", "camera", "qhy-wrapper"]
+categories = ["api-bindings", "hardware-support"]
+
+[dependencies]
+fitsio = "0.19.0"
+
