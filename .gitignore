@@ -3,3 +3,4 @@
 *.fits*
 Cargo.lock
 .DS_Store
+/examples/.DS_Store
