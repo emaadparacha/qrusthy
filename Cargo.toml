@@ -4,8 +4,9 @@ version = "0.1.0"
 authors = ["Emaad Paracha <emaad@emaadparacha.com>"]
 edition = "2018"
 description = "Rust wrapper for the QHYCCD SDK for QHY Cameras"
+repository = "https://github.com/emaadparacha/qrusthy"
 readme = "README.md"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 keywords = ["qhy", "qhyccd", "ccd", "camera", "qhy-wrapper"]
 categories = ["api-bindings", "hardware-support"]
 
