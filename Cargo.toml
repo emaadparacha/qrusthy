@@ -11,7 +11,7 @@ keywords = ["qhy", "qhyccd", "ccd", "camera", "qhy-wrapper"]
 categories = ["api-bindings", "hardware-support"]
 
 include = [
-    "examples/*",
+    "examples/single_frame_mode/src/main.rs",
 ]
 
 [dependencies]
