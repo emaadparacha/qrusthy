@@ -8,4 +8,4 @@
 3. Run `cargo build` to build the Rust QHYCCD SDK.
 4. Enter `examples/single_frame_mode` and use `cargo run` to run code in the `main.rs` file that captures a single frame image using the camera.
 
-🚧 Work is still in progress... 🚧
+🚧 Some work is still in progress... 🚧
