@@ -16091,8 +16091,22 @@ extern "C" {
 extern "C" {
     pub fn GetTimeStamp() -> *const ::std::os::raw::c_char;
 }
+#[cfg(target_os = "macos")]
 #[link(name = "qhyccd")]
-#[link(name = "stdc++")] //fix for Ubuntu
+#[link(name = "c++")]
+#[link(name = "usb-1.0")]
+extern "C" {
+    #[doc = " \\fn uint32_t InitQHYCCDResource()"]
+    #[doc = "\\brief initialize QHYCCD SDK resource"]
+    #[doc = "\\return"]
+    #[doc = "on success,return QHYCCD_SUCCESS \\n"]
+    #[doc = "QHYCCD_ERROR_INITRESOURCE if the initialize failed \\n"]
+    #[doc = "another QHYCCD_ERROR code on other failures"]
+    pub fn InitQHYCCDResource() -> u32;
+}
+#[cfg(target_os = "linux")]
+#[link(name = "qhyccd")]
+#[link(name = "stdc++")]
 #[link(name = "usb-1.0")]
 extern "C" {
     #[doc = " \\fn uint32_t InitQHYCCDResource()"]
