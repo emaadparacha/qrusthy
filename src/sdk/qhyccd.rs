@@ -16092,7 +16092,7 @@ extern "C" {
     pub fn GetTimeStamp() -> *const ::std::os::raw::c_char;
 }
 #[link(name = "qhyccd")]
-#[link(name = "stdc++")]
+#[link(name = "stdc++")] //fix for Ubuntu
 #[link(name = "usb-1.0")]
 extern "C" {
     #[doc = " \\fn uint32_t InitQHYCCDResource()"]
