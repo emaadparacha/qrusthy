@@ -9,3 +9,4 @@
 4. Enter `examples/single_frame_mode` and use `cargo run` to run code in the `main.rs` file that captures a single frame image using the camera.
 
 🚧 Some work is still in progress... 🚧
+
